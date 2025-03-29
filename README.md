@@ -1,21 +1,57 @@
-## Compilation
+# CHA_TUI
+
+Un projet de chat en ligne avec une interface en ligne de commande.
+
+---
+
+## 📦 Compilation
+
+Pour compiler le projet, utilisez la commande suivante :
+
 ```bash
 make
 ```
 
-## Exécution
+---
+
+## 🚀 Exécution
+
+### Serveur
+
 ```bash
 ./serveur <nb_clients> <port>
+```
+
+### Client
+
+```bash
 ./client <ip_adress> <port>
 ```
 
-## Commandes
+---
 
-### Liste
-```bash
-/commands : list all the commands
-/members : list all members of chat
-/whisper <username> <message> : send a private message to a specific user
-/kick <username> : kick a specific user
-/bye : exit from chat
-```
+## 💬 Commandes
+
+Voici la liste des commandes disponibles dans le chat :
+
+- `/commands` : Affiche toutes les commandes disponibles.
+- `/members` : Liste tous les membres connectés au chat.
+- `/whisper <username> <message>` : Envoie un message privé à un utilisateur spécifique.
+- `/kick <username>` : Expulse un utilisateur spécifique.
+- `/bye` : Quitte le chat.
+
+---
+
+## 🛠️ Fonctionnalités à venir
+
+- [ ] Historique des messages.
+- [ ] Authentification des utilisateurs.
+- [ ] Support multi-plateforme.
+
+---
+
+## 📖 Licence
+
+Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier et de le distribuer.
+
+---
