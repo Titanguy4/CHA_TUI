@@ -15,13 +15,13 @@ make
 ### Serveur
 
 ```bash
-./serveur <nb_clients> <port>
+./serveur <NB_CLIENTS> <PORT> <PORT_FILE> <NB_SALONS>
 ```
 
 ### Client
 
 ```bash
-./client <ip_adress> <port>
+./client <ServeurIP> <PORT> <FILEPORT>
 ```
 
 ## 💬 Commandes
